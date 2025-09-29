@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sowmika</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/72a0f5007e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data sciencist</p>
+                <h1>Hi, I am <span>Sowmika Yeadhara </span> </h1>
+            </div>
+        </div>
+        </div>
+<!-------about--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am Sowmika Yeadhara, a master s student at UNT with a strong passion for software and data. I enjoy solving real-world problems using modern technologies and continuously update my skills to stay current. My goal is to grow in this field and contribute through innovative and impactful work.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Linux </span></li>
+                                <li><span>Javascript</span></li>
+                                <li><span>C, C++</span></li>
+                                <li><span>python</span></li>
+                                <li><span>SQL</span></li>
+                                <li><span>Oracle Database</span></li>
+                                <li><span>Java</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>Php</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 - current</span><br>Masters in Data Science<br>University of North Texas</li>
+                                <li><span>2019-2023</span><br>Bachelors in Information Technology<br>MLR Institute of Technology</li>
+                                <li><span>2017-2019</span><br>Intermediate MPC<br>Sri Chaitanya Junior College</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---------------------------------servies------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Oracle</h2>
+                        <p>SQL Development,<br> Database Management,<br> Query optimization</p>
+                    </div>
+                    <div>
+                        <h2>Data Science</h2>
+                        <p>Data visualization,<br> NLP & Text mining</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------porfolio------------------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                        <h3>Question and Answer Distractor Generator</h3>
+                        <p>Distractors generates automatically  for the given question and answer to the model which is simply a chatbot.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                        <h3>Netflix Content Through the Data Lens</h3>
+                        <p>Analyzed over 8,800 titles to examine content type, country of origin, and growth patterns, using Python for data cleaning and Tableau for visualization.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                        <h3>Question and Answer Distractor Generator</h3>
+                        <p>Distractors generates automatically  for the given question and answer to the model which is simply a chatbot.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!-------------------------contact--------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>ysowmika1233@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+1 9406299800</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/yeadhara-sowmika-450654211/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/s_o_w_m_i_k_a/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61581491042989"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        </div>
+                        <a href="images/my-resume.pdf" download class=" btn btn2">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Sowmika Yeadhara.<i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+            }
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
