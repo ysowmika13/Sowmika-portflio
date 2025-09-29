@@ -324,10 +324,6 @@ nav ul li a:hover::after
     background: #262626;
     margin-top: 20px;
 }
-.copyright i
-{
-    color:#ff004f
-}
 nav .fa-solid
 {
     display: none;
@@ -407,4 +403,5 @@ nav .fa-solid
     {
         font-size: 14px;
     }
+
 }
